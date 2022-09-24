@@ -7,7 +7,7 @@ const Hero = () => {
     <div className='hero'>
       <div className='content'>
         <h1>Find your perfect outdoor retreat.</h1>
-        <p className='search-text'>Search the largest selection of cottages and log cabins in B.C.</p>
+        <p className='search-text'>Search the largest selection of log cabins, cottages, and more.</p>
         <form className='search'>
           <div>
               <input type='text' placeholder='Enter keywords, locations, etc.' />
