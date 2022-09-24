@@ -75,8 +75,10 @@
     padding: 0.3rem;
     border-radius: 3px;
     border: 1px solid rgb(93, 61, 61);
+    background-color: rgb(85, 151, 173);
     cursor: pointer;
 
+    color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
 }

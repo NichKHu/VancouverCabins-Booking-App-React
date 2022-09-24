@@ -21,7 +21,7 @@ const Navbar = () => {
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Support</a></li>
             </ul>
-            <button className='btn'>Log-in<TbUserCircle className='login-icon' /></button>
+            <button className='btn'>Log-in</button>
             <div className='bar' onClick={handleClick}>
                 {click ? (<AiOutlineMenuUnfold className="closing-mobile-nav" />) : (<AiOutlineMenuFold className="mobile-nav" />)}
             </div>

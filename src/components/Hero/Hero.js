@@ -17,7 +17,7 @@ const Hero = () => {
             <label>Buy</label>
             <input type='radio' unchecked />
             <label>Rent</label>
-            <button type='submit' className='search-btn'>Seach<TbChartDots className='search-icon' /></button>
+            <button type='submit' className='search-btn'>Search</button>
           </div>
         </form>
       </div>
