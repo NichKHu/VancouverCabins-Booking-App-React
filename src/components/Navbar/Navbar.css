@@ -21,17 +21,6 @@
     padding: 1rem;
 }
 
-.btn {
-    padding: 0.4em 0.7em;
-    border: 1px solid gray;
-    border-radius: 0.5em;
-    background-color: rgb(85, 151, 173);
-
-    font-family: 'Raleway';
-    font-size: 1.1em;
-    color: white;
-}
-
 .navbar span {
     color: rgb(85, 151, 173);
 }
@@ -79,4 +68,21 @@
 .mobile-nav, 
 .closing-mobile-nav {
     font-size: 2em;
+}
+
+.login-icon {
+    font-size: 2rem;
+    padding-left: 2px;
+    padding-top: 8px;
+}
+
+.btn {
+    padding: 0.2em 0.7em 0.3em 0.3em;
+    border: 1px solid gray;
+    border-radius: 0.5em;
+    background-color: rgb(83, 114, 98);
+
+    font-family: 'Raleway';
+    font-size: 1.1em;
+    color: white;
 }
