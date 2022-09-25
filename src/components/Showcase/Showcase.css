@@ -1,0 +1,25 @@
+.showcase {
+    width: 100%;
+    margin: 2rem 0rem;
+}
+
+.showcase-text {
+    text-align: center;
+}
+
+.showcase > p {
+    text-align: center;
+    padding: 1rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    padding: 2rem;
+}
+
+.container img {
+    width: 100%;
+
+}
