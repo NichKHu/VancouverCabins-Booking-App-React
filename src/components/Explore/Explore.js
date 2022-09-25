@@ -2,7 +2,7 @@ import React from 'react'
 import './Explore.css'
 
 import explore1 from '../../assets/images/explore-1.jpg'
-import explore2 from '../../assets/images/explore-2.jpg'
+import explore2 from '../../assets/images/explore-2.1.jpg'
 import explore3 from '../../assets/images/explore-3.jpg'
 
 const Explore = () => {

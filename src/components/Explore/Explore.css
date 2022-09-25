@@ -27,11 +27,12 @@
 
 .image-grid img {
     width: 100%;
+    height: 80%;
 }
 
 @media screen and (max-width:940px) {
     .explore {
-        margin: 1rem 0;
+        margin: 1rem 1rem;
     }
 
     .explore > div p {
@@ -44,3 +45,11 @@
         grid-gap: 0.5rem;
     }
 }
+
+@media screen and (max-width:478px) {
+    .sub-header p {
+        margin: 1rem 0.5rem;
+
+    }
+}
+
