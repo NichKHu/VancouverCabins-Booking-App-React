@@ -1,0 +1,46 @@
+.explore {
+    width: 100%;
+    margin: 4rem 0rem;
+    text-align: center;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-header > p {
+    margin: 1rem 2rem;
+    font-size: 1.1rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.image-grid {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem;
+}
+
+.image-grid img {
+    width: 100%;
+}
+
+@media screen and (max-width:940px) {
+    .explore {
+        margin: 1rem 0;
+    }
+
+    .explore > div p {
+        margin: 1rem;
+        font-size: 1rem;
+    }
+
+    .explore .image-grid {
+        grid-template-columns: 1fr;
+        grid-gap: 0.5rem;
+    }
+}
