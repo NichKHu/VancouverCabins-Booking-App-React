@@ -40,17 +40,11 @@
         margin: 1rem;
         font-size: 1rem;
     }
-
-    .explore .image-grid {
-        grid-template-columns: 1fr;
-        grid-gap: 0.5rem;
-    }
 }
 
 @media screen and (max-width:478px) {
     .sub-header p {
         margin: 1rem 0.5rem;
-
     }
 }
 
