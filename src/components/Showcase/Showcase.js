@@ -49,7 +49,7 @@ const Showcase = () => {
       
           <div className='span-2 right-img-details'>
             <p>A beautiful modern lakehouse in the B.C. with a full-size nature view.</p>
-            <button className='btn'>View Listings</button>
+            <button className='view-listings-btn'>View Listings</button>
           </div>
 
         </div>
