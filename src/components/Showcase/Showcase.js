@@ -64,7 +64,7 @@ const Showcase = () => {
 
         </div>
 
-        <div className='container'>
+        {/* <div className='container'>
           <img src={showcaseMain} alt=''/>
           <img src={showcaseBedroom1} alt=''/>
           <img src={showcaseBedroom2} alt=''/>
@@ -113,7 +113,7 @@ const Showcase = () => {
             <p>A beautiful modern lakehouse in the B.C. with a full-size nature view.</p>
             <button className='view-listings-btn'>View Listings</button>
           </div>
-      </div>
+      </div> */}
     </div>
   )
 }
