@@ -11,9 +11,9 @@ const Showcase = () => {
   return (
     <div className='showcase'>
         <h1 className='showcase-text'>Top Featured Showcase</h1>
-        <p>Selected listings by city, state, and zip based on views</p>
+        <p className='show-case-text'>Selected listings by city, state, and zip based on views</p>
         <div className='container'>
-          <img src={showcaseMain} alt=''/>
+          <img className='span-3 image-grid-row-2' src={showcaseMain} alt=''/>
           <img src={showcaseBedroom1} alt=''/>
           <img src={showcaseBedroom2} alt=''/>
           <img src={showcaseLivingRoom} alt=''/>

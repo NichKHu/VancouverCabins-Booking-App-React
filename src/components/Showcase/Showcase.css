@@ -29,6 +29,19 @@
     height: 100%;
     object-fit: cover;
 }
+
+.span-3 {
+    grid-column: span 3;
+}
+
+.span-3 {
+    grid-column: span 2;
+}
+
+.image-grid-row-2 {
+    grid-row: span2;
+}
+
 /* 
 .container img:first-child {
     grid-column-start: 1;
