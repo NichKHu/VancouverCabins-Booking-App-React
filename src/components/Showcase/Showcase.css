@@ -68,7 +68,7 @@
 
 .info-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2,1fr);
 }
 
 .right-img-details .btn {
@@ -97,4 +97,17 @@
 .featured .bold {
     font-weight: 600;
     margin-right: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .showcase .container {
+        --num-cols: 2;
+        --row-height: 200px;
+        --gap: 0.5rem;
+    }
+    .span-3 {
+        grid-column: span 2;
+    }
+
+    
 }
