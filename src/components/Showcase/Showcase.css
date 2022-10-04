@@ -65,6 +65,16 @@
     grid-row-start: 2;
     grid-column-start: 3;
 }
+*/
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.right-img-details .btn {
+    margin: 1rem 0;
+}
 
 .showcase .top {
     display: flex;
@@ -83,4 +93,4 @@
     justify-content: space-between;
     margin: 0.8rem 0;
     width: 60%;
-} */
+}
