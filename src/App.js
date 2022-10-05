@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import Explore from './components/Explore/Explore';
 import Showcase from './components/Showcase/Showcase';
+import End from './components/End/End';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Explore />
       <Showcase />
+      <End />
     </div>
   );
 }
