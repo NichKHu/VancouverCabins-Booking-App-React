@@ -45,6 +45,22 @@ input {
     color: white;
 }
 
+.btn-subscribe:hover {
+    display: block;
+    margin-top: 2rem;
+
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+    font-family: 'Raleway';
+    font-size: 1rem;
+    background-color: white;
+    transition: 0.4s ease-in-out;
+    color: black;
+}
+
 .newsletter-info {
     width: 300px;
     margin-top: 0.2rem;
@@ -66,8 +82,12 @@ input {
     font-size: 0.7rem;
 }
 
-.social-media > *{
-    padding: 3px;
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
     font-size: 1.5rem;
     color: rgb(111,111,111);
