@@ -78,13 +78,11 @@
 }
 
 .btn {
-    padding: 0.5em 0.8em;
+    padding: 0.7em 1.4em;
     border: 1px solid gray;
-    border-radius: 0.5em;
-    background-color: rgb(85, 151, 173);
+    background-color: rgb(30,28,28);
 
     font-family: 'Raleway';
-    font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1em;
     color: white;
 }
