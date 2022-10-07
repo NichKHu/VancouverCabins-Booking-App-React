@@ -1,6 +1,12 @@
 import React from 'react'
 import './End.css'
 
+import {AiOutlineFacebook} from 'react-icons/ai';
+import {GrTwitter} from 'react-icons/gr';
+import {AiOutlineInstagram} from 'react-icons/ai';
+import {ImPinterest2} from 'react-icons/im';
+import {IoLogoTumblr} from 'react-icons/io';
+
 const End = () => {
   return (
     <div className='end'>
@@ -41,6 +47,7 @@ const End = () => {
                     <h4>Call Us</h4>
                     <p>M-F | 8am-6pm PT</p>
                     <p className='phone-num'>+44 20 3663 0230</p>
+                    <div className="social-media"><AiOutlineFacebook /><GrTwitter /><AiOutlineInstagram /><ImPinterest2 /><IoLogoTumblr /></div>
             </div>
         </div>
         <div className='copyright-ending'>
