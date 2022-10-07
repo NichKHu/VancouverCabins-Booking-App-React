@@ -6,33 +6,33 @@ const End = () => {
     <div className='end'>
         <div className='container'>
             <div className='our-brand list'>
-                <h3 className='our-brand-header'>Our Brand</h3>
+                <h3 className='header'>Our Brand</h3>
                     <ul className='our-brand-list'>
-                        <li>About Us</li>
-                        <li>Terms and Conditions</li>
-                        <li>Privacy Policy</li>
-                        <li>Sustainability</li>
-                        <li>Terms of Service</li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Terms of Service</a></li>
                     </ul>
             </div>
             <div className='assistance list'>
-                <h3 className='assistance-header'>Assistance</h3>
+                <h3 className='header'>Assistance</h3>
                     <ul className='assistance-list'>
-                        <li>Customer Service</li>
-                        <li>FAQs</li>
-                        <li>Partner Help</li>
-                        <li>Investor Relations</li>
-                        <li>Partner Dispute</li>
-                        <li>Don't sell my personal information</li>
-                        <li>Corporate Contact</li>
+                        <li><a href="#">Customer Service</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Partner Help</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Partner Dispute</a></li>
+                        <li><a href="#">Don't sell my personal information</a></li>
+                        <li><a href="#">Corporate Contact</a></li>
                     </ul>
             </div>
             <div className='newsletter list'>
-                <h3 className='newsletter-header'>Newsletter</h3>
+                <h3 className='header'>Newsletter</h3>
                     <p>Subscribe to recieve updates, access to exclusive real estate proposals, and more.</p>
                     <form>
-                        <input type='email' placeholder='Enter your email address'></input>
-                        <button type='button' name='button'>SUBSCRIBE</button>
+                        <input className='user-input' type='email' placeholder='Enter your email address'></input>
+                        <button className='btn-subscribe' type='button' name='button'>Subscribe</button>
                     </form>
             </div>
         </div>

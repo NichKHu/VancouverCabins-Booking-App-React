@@ -10,3 +10,38 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
+
+.header {
+    padding-bottom: 0.5rem;
+}
+
+form {
+    padding-top: 1rem;
+}
+
+input {
+    border: 2px solid rgb(231,231,231);
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-left: 0.7rem;
+    padding-right: 4rem;
+}
+
+.btn-subscribe {
+    display: block;
+    margin-top: 2rem;
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    font-family: 'Raleway';
+    background-color: black;
+    color: white;
+}
+
+.newsletter > .header > p {
+    width: 30%;
+    margin-top: 0.2rem;
+}
