@@ -79,10 +79,19 @@
 
 .btn {
     padding: 0.7em 1.4em;
-    border: 1px solid gray;
     background-color: rgb(30,28,28);
-
     font-family: 'Raleway';
     font-size: 1em;
     color: white;
+    width: 100px;
+
+    box-shadow: inset 0 0 0 0 white;
+    transition: 0.4s ease-in-out;
 }
+
+.btn:hover {
+    color: black;
+    box-shadow: inset 100px 0 0 0 white;
+    cursor: pointer;
+}
+
