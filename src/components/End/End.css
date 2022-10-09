@@ -87,3 +87,11 @@ input {
     font-size: 1.5rem;
     color: rgb(111,111,111);
 }
+
+@media screen and (max-width: 1024px) {
+    .end .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+    }
+}

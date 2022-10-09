@@ -11,7 +11,7 @@ const End = () => {
   return (
     <div className='end'>
         <div className='container'>
-            <div className='our-brand list'>
+            <div className='our-brand list grid'>
                 <h3 className='header'>Our Brand</h3>
                     <ul className='our-brand-list'>
                         <li><a href="#">About Us</a></li>
@@ -21,7 +21,7 @@ const End = () => {
                         <li><a href="#">Terms of Service</a></li>
                     </ul>
             </div>
-            <div className='assistance list'>
+            <div className='assistance list grid'>
                 <h3 className='header'>Assistance</h3>
                     <ul className='assistance-list'>
                         <li><a href="#">Customer Service</a></li>
@@ -33,7 +33,7 @@ const End = () => {
                         <li><a href="#">Corporate Contact</a></li>
                     </ul>
             </div>
-            <div className='newsletter list'>
+            <div className='newsletter list grid'>
                 <h3 className='header'>Newsletter</h3>
                     <p className='newsletter-info'>Subscribe to recieve updates, access to exclusive real estate proposals, and more.</p>
                     <form>
@@ -41,7 +41,7 @@ const End = () => {
                         <button className='btn-subscribe' type='button' name='button'>Subscribe</button>
                     </form>
             </div>
-            <div className='contact list'>
+            <div className='contact list grid'>
                 <h3 className='contact-us'>Contact Us</h3>
                     <p className='supp-email'>support@vancouvercabins.com</p>
                     <h4>Call Us</h4>
