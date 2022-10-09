@@ -20,7 +20,7 @@ const Showcase = () => {
         <img src={showcaseBathroom} alt=''/>
 
         <div className='span-3 img-details'>
-
+          
           <div className='top'>
             <h2>123 Placeholder St. Vancouver, B.C.</h2>
             <p>House for Sale</p>
@@ -52,9 +52,10 @@ const Showcase = () => {
 
         <div className='span-2 right-img-details'>
           <p>A beautiful modern estate with a gorgeous view of a full-size lake. Spacious and luxrious cottage located in heart of Vancouver. Including media room, built-in sauna, and cozy fireplace.</p>
-          <button className='btn'>View Listing</button>
         </div>
-
+      </div>
+      <div>
+        <button className='btn view-listing'>View Listing</button>
       </div>
     </div>
   )
