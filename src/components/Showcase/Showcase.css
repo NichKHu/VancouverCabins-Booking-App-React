@@ -119,3 +119,10 @@
     width: 150px;
 }
 
+.grid-div {
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    bottom: 200px;
+}

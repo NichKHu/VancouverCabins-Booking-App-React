@@ -21,7 +21,7 @@ const Explore = () => {
                 <img src={explore2} alt='' />
                 <img src={explore3} alt='' />
             </div>
-            <button className='btn'>View All</button>
+            <button className='btn view-all'>View All</button>
     </div>
   )
 }

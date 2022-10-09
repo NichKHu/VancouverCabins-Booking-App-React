@@ -54,7 +54,7 @@ const Showcase = () => {
           <p>A beautiful modern estate with a gorgeous view of a full-size lake. Spacious and luxrious cottage located in heart of Vancouver. Including media room, built-in sauna, and cozy fireplace.</p>
         </div>
       </div>
-      <div>
+      <div className='grid-div'>
         <button className='btn view-listing'>View Listing</button>
       </div>
     </div>
